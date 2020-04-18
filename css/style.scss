@@ -1,16 +1,144 @@
+$textColor: #2d3436;
+
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
     width: 100%;
-    background: black;
+    background: #222f3e;
 }
 
 main {
-    width: 60%;
+    width: 42%;
     margin: 0 auto;
     background-color: white;
+    text-align: center;
+    height: auto;
 }
+
+.logo {
+    position: relative;
+    top: 30px;
+}
+
+.content-container {
+    margin: 0px 5%;
+}
+
+.title {
+   padding: 20px 20px;
+   h1 {
+       font-family: Arial, Helvetica, sans-serif;
+       color: $textColor;
+       opacity: .9;
+       font-size: 36px;
+   }
+}
+
+.text {
+    justify-content: center;
+    margin: 30px 60px;
+    li {
+        line-height: 23px;
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $textColor;
+    }
+    p {
+        line-height: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $textColor;
+    }
+    ul {
+        padding: 0px 40px;
+    }
+}
+
+.btn {
+    padding: 25px 50px;
+    margin-bottom: 40px;
+    a {
+        padding: 15px 50px;
+        background: #ffc800;
+        text-decoration: none;
+        color: $textColor;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+}
+
+.showcase img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+img {
+    margin: auto auto 50px auto;    
+}
+
+footer {
+    background-color: #d1d8e0;
+    height: auto;
+    .footer-container {
+        padding: 20px 40px;
+    }
+    h3 {
+        opacity: .6;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .links {
+        font-size: 20px;
+        word-spacing: 1rem;
+        padding-bottom: 20px;
+        span {
+           border-left: 1px solid gray;
+           border-right: 1px solid gray;
+           padding: 0px 20px;
+        }
+        a {
+            color: #3c40c6;
+            font-weight: 300;
+        }
+    }
+    .social {
+        font-size: 40px;
+        text-decoration: none;
+        padding-bottom: 20px;
+        a {
+            color: #009432;
+        }
+        ul {
+            word-spacing: 1rem;
+        }
+    }
+    .footer-text{
+        text-align: center;
+        margin: 0 60px;
+        line-height: 20px;
+        padding: 0px 50px;
+        opacity: 0.7;
+        position: relative;
+        bottom: 30px;
+        .info-btn {
+            padding-top: 10px;
+        }
+        a {
+            margin: 0px 8px;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #3c40c6;
+        }
+        a:hover {
+            font-weight: bold;
+        }
+    }
+    
+   
+}
+
 
